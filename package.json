@@ -1,22 +1,15 @@
 {
-    "name": "tailwind",
+    "name": "todo-list-app",
     "version": "1.0.0",
-    "description": "this is a todo list app ",
-    "main": "app.js",
+    "description": "This project is about creating or simulating a twitter page. ",
+    "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "watch": "npx tailwindcss -i ./tailwindCSS/input.css -o ./css/output.css --watch"
+        "watch": "npx tailwindcss -i ./TailwindCSS/input.css -o ./CSS/output.css --watch"
     },
-    "repository": {
-        "type": "git",
-        "url": "not for now "
-    },
-    "keywords": [
-        "nothing"
-    ],
-    "author": "Ahmed mohamed",
+    "author": "Ahmed Mohamed",
     "license": "ISC",
-    "dependencies": {
-        "tailwindcss": "^3.2.7"
+    "devDependencies": {
+        "tailwindcss": "^3.2.4"
     }
 }
