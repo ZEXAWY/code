@@ -15,5 +15,8 @@
         "nothing"
     ],
     "author": "Ahmed mohamed",
-    "license": "ISC"
+    "license": "ISC",
+    "dependencies": {
+        "tailwindcss": "^3.2.7"
+    }
 }
