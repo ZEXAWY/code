@@ -2,7 +2,7 @@
     "name": "todo-list-app",
     "version": "1.0.0",
     "description": "This project is about creating or simulating a twitter page. ",
-    "main": "index.js",
+    "main": "index.html",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "watch": "npx tailwindcss -i ./TailwindCSS/input.css -o ./CSS/output.css --watch"
