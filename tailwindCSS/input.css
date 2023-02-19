@@ -7,6 +7,6 @@
         @apply border border-black border-spacing-5 rounded-2xl bg-slate-200;
     }
     .btn {
-        @apply border-yellow-400 border-4 border-solid rounded-lg px-2 bg-teal-200 text-black;
+        @apply border-yellow-400 border-solid rounded-lg px-2 bg-teal-200 text-black my-2;
     }
 }
