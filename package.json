@@ -1,0 +1,19 @@
+{
+    "name": "tailwind",
+    "version": "1.0.0",
+    "description": "this is a todo list app ",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "watch": "npx tailwindcss -i ./tailwindCSS/input.css -o ./css/output.css --watch"
+    },
+    "repository": {
+        "type": "git",
+        "url": "not for now "
+    },
+    "keywords": [
+        "nothing"
+    ],
+    "author": "Ahmed mohamed",
+    "license": "ISC"
+}

@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>My Todo App</title>
+        <link rel="stylesheet" href="./css/output.css" />
+    </head>
+    <body class="bg-[url('/img/bg2.jpg')] text-white bg-contain">
+        <div class="text-center text-[3rem] bg-slate-500 text-white font-extrabold font-mono h-auto w-fit mx-auto rounded-2xl p-4 mt-10">
+            Zex's todo list app<br />
+        </div>
+        <div class="flex gap-5 ml-5">
+            <input id="todo-title" type="text" class="something text-black p-2 text-2xl" />
+            <input id="date-picker" type="date" class="something rounded-none bg-slate-600 p-1 w-fit" />
+            <button onclick="addTodo()" class="btn">Add Todo</button>
+        </div>
+        <div id="todo-list" class="bg-slate-400 w-fit mx-5 my-5 h-auto text-2xl rounded-3xl p-5"></div>
+
+        <script src="./app.js"></script>
+    </body>
+</html>
